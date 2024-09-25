@@ -13,6 +13,13 @@
 
 <img src="https://github.com/user-attachments/assets/849ba289-4f06-4ed8-9656-a4a31b16ad79" width="800">
 
+## 주요 역할
+1. 데이터 수집 및 전처리
+2. TF-IDF 방식으로 데이터 벡터화
+3. 코사인 유사도를 통한 텍스트 간 유사도 계산 및 상위 유사 항목 도출
+4. 상위 유사 텍스트 중 가장 자주 등장하는 법령명 분석
+5. 법령 최적화를 위해 다양한 n-gram 과 텍스트 전처리 기법 활용
+
 ## 결과
 - 검색한 문장과의 유사도 검사를 통해 관련 법령 검색 (4가지 모델의 결과를 Voting 후 최종 결과 도출)
 <img src="https://github.com/user-attachments/assets/59ce11bb-6b1f-43d2-b2aa-ef8b251666db" width="800">
