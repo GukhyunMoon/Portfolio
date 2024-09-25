@@ -10,4 +10,4 @@
 3. DL 모델 : 조항별 Keyword 추출 : Key-Bert / (Clustering : UMAP, HDBSCAN) > Transformers 기반 검색 모델
 4. 최종 모델 : 앙상블 방법 적용
 
-![image](https://github.com/user-attachments/assets/f879cb33-63b2-4dbd-9f5e-e959d626c4d6)
+<img src="https://github.com/user-attachments/assets/f879cb33-63b2-4db4-9f5e-e959d626c4d6" width="500">
