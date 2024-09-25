@@ -14,7 +14,7 @@
 <img src="https://github.com/user-attachments/assets/38fcdacd-ece1-49f9-9386-50789a8e4e40" width="800">
 
 ## 주요 역할
-1. 데이터 수집 및 전처리(읍,면,동 컬럼을 세분화하여 법정동, 행정동으로 분리, PublicDataReade 모듈 사용)
+1. 데이터 수집 및 전처리(읍,면,동 컬럼을 세분화하여 법정동, 행정동으로 분리, [PublicDataReade](https://wooiljeong.github.io/python/pdr-code/) 모듈 사용)
 2. 탐색적 데이터 분석(EDA)을 위해 PCA(주성분 분석)를 사용, 주요 변수 간 관계 탐색
 3. KMeans 클러스터링을 통해 지역별 음식 유형의 특성을 군집화하여 중요 인사이트 도출
 
