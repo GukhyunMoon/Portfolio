@@ -22,8 +22,10 @@
 5. 법령 최적화를 위해 다양한 n-gram 과 텍스트 전처리 기법 활용
 
 ## 결과
-- 검색한 문장과의 유사도 검사를 통해 관련 법령 검색 (4가지 모델의 결과를 Voting 후 최종 결과 도출)
+
 <img src="https://github.com/user-attachments/assets/59ce11bb-6b1f-43d2-b2aa-ef8b251666db" width="800">
+
+- 검색한 문장과의 유사도 검사를 통해 관련 법령 검색 (4가지 모델의 결과를 Voting 후 최종 결과 도출)
 
 ## 기대효과 및 Lesson and Learned
 
