@@ -1,5 +1,5 @@
 <center>
-  <img src="https://github.com/user-attachments/assets/5c5ae845-f734-46d8-be58-8cd12ealc07f" alt="외국인 대상 영문 법령 검색 AI" width="200" height="200">
+  <img src="![139](https://github.com/user-attachments/assets/a1ca9a3e-55d1-4573-a31f-ebc5059fa887) alt="외국인 대상 영문 법령 검색 AI" width="200" height="200">
 </center>
 
 ----------------------------
