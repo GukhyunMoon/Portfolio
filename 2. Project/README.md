@@ -27,8 +27,6 @@
 
 
 ## 데이터 수집
-- 공공 데이터 포털에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
-- 지역별 최근값, 최대치, 최소치일자, 최대치일자, 음식점 종류별, 법정동 데이터 생성
 
 <table>
   <tr>
@@ -52,10 +50,12 @@
     </td>
   </tr>
 </table>
+- 공공 데이터 포털에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
+- 지역별 최근값, 최대치, 최소치일자, 최대치일자, 음식점 종류별, 법정동 데이터 생성
 
 
 ### 총 음식점 리스트
-<img src="https://github.com/user-attachments/assets/2be59ea8-2d5e-475b-b9ff-faa05f175a39" width="500">
+<img src="https://github.com/user-attachments/assets/350bf61c-17a1-4a7c-aef8-d757fe3f50a7" width="600">
 
 
 ## 데이터 전처리
@@ -68,13 +68,24 @@
 
 ## EDA
 <img src="https://github.com/user-attachments/assets/0d25f745-a1b5-4e1a-b2ef-ccff864e8dfc" width="500">
-<img src="https://github.com/user-attachments/assets/a0167982-48c1-42ff-9d3c-38ff32e79c1b" width="500">
-- 광역시별 가장 많은 음식점 유형
-- 광역시별 인구수
+<img src="https://github.com/user-attachments/assets/13fd0928-3360-4091-8e13-2dab416e1f27" width="500">
+- 광역시별 치킨매장이 제일 많다. 
+- 광역시별 인구수 확인
 
 
 ## PCA 및 클러스터링
 ### 1. PCA
+<img src="https://github.com/user-attachments/assets/9df1aedf-9b1b-4f14-a5b8-7babc808ffaf" width="600">
+- 목적 : 로딩 값을 추출하여 특정 지역에서는 인기 있는 음식점 유형 파악, 주요 요인 도출
+- 주성분 4개의 누적 설명 분산 비율이 약 81.4% 로 데이터의 주요 변동성을 충분히 설명
+- 주성분 5개 이상 선택 시 누적 설명 분산 비율이 약 90% 이상 증가 하지만 설명력 향상 대비 모델의 복잡성 증가가 크다고 판단
+
+### KMeans 클러스터링
+<img src="https://github.com/user-attachments/assets/204c3807-901a-4f9b-b2f5-a0db58210f03" width="600">
+- 목적 : 유사한 특성을 가진 지역을 군집화, 각 군집의 특성 분석
+- 엘보우 방법을 사용해 최적의 클러스터 개수 결정 = 5
+
+
 
 
 
