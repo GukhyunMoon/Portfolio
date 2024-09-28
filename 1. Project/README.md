@@ -1,10 +1,6 @@
-<p align="left">
-  <img src="https://github.com/user-attachments/assets/a1ca9a3e-55d1-4573-a31f-ebc5059fa887" alt="외국인 대상 영문 법령 검색 AI" width="50" height="50">
-  <strong>개인 프로젝트 :</strong> BattleGround_Anomaly_Detection
-</p>
-<p align="left">
-  🎮 <strong>배틀그라운드 비인가 프로그램 탐지 프로젝트</strong>
-</p>
+<center>
+  <img src="https://github.com/user-attachments/assets/a1ca9a3e-55d1-4573-a31f-ebc5059fa887" alt="외국인 대상 영문 법령 검색 AI" width="30" height="30">
+</center>
 
 ----------------------------
 ## 프로젝트 개요
