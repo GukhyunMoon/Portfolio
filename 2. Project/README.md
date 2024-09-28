@@ -39,7 +39,6 @@
 ## 데이터 전처리
 
 <img src="https://github.com/user-attachments/assets/6abfcf80-ee4b-46ab-85f0-9fa2908a38d7" width="500">
-<img src="https://github.com/user-attachments/assets/5e1fb7e8-718b-4dcd-aa8b-ea2cb3419d70" width="40">
 <img src="https://github.com/user-attachments/assets/3dcc79f0-42ba-4def-9aa7-5e636994aa45" width="500">
 
 - 기존 데이터 : 지역별 편차가 크고 표준화가 되어있지 않음
