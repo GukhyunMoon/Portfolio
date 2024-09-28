@@ -1,7 +1,6 @@
-<h1 align="center">
-  <img src="https://github.com/user-attachments/assets/a1ca9a3e-55d1-4573-a31f-ebc5059fa887" alt="외국인 대상 영문 법령 검색 AI" width="50" height="50">
-  외국인 대상 영문 법령 검색 AI
-</h1>
+<center>
+  # 외국인 대상 법령 검색 AI
+</center>
 
 ----------------------------
 ## 프로젝트 개요
