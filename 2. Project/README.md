@@ -25,8 +25,8 @@
 
 ## 데이터 수집
 
-<img src="https://github.com/user-attachments/assets/5e0e0689-d6c2-494c-aa30-2ecb6e30312a" width="500">
-<img src="https://github.com/user-attachments/assets/07c93462-fcd7-4393-9db2-c2c267bfd5fc" width="500">
+<img src="https://github.com/user-attachments/assets/22c7bc01-83ab-448f-9f86-f0cbcc79eeb9" width="500">
+<img src="https://github.com/user-attachments/assets/856d5b15-b368-4e63-93c9-62e969c54032" width="500">
 
 - 공공 데이터 포털에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
 - 지역별 최근값, 최대치, 최소치일자, 최대치일자, 음식점 종류별, 법정동 데이터 생성
@@ -38,7 +38,9 @@
 
 ## 데이터 전처리
 
-<img src="https://github.com/user-attachments/assets/b72e82cd-efca-4f7b-84a0-9f09e563e496" width="600">
+<img src="https://github.com/user-attachments/assets/6abfcf80-ee4b-46ab-85f0-9fa2908a38d7" width="500">
+<img src="https://github.com/user-attachments/assets/5e1fb7e8-718b-4dcd-aa8b-ea2cb3419d70" width="500">
+<img src="https://github.com/user-attachments/assets/3dcc79f0-42ba-4def-9aa7-5e636994aa45" width="500">
 
 - 기존 데이터 : 지역별 편차가 크고 표준화가 되어있지 않음
 - 해당 지역을 총 음식점 당 가게수로 대체 > 지역별 편차 최소화
