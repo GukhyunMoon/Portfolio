@@ -41,8 +41,8 @@
 ## 데이터 전처리
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/6abfcf80-ee4b-46ab-85f0-9fa2908a38d7" width="500" height="150" alt="이미지 1">
-  <img src="https://github.com/user-attachments/assets/2171c9f6-4dab-4109-8796-bcb19caabae5" width="500" height="155" alt="이미지 2">
+  <img src="https://github.com/user-attachments/assets/6abfcf80-ee4b-46ab-85f0-9fa2908a38d7" width="500" alt="이미지 1">
+  <img src="https://github.com/user-attachments/assets/bf554593-f60a-4e9b-b7cc-ff1676de0716" width="500" alt="이미지 2">
 </div>
 
 - 기존 데이터 : 지역별 편차가 크고 표준화가 되어있지 않음
