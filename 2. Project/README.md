@@ -48,23 +48,28 @@
 - 법정동, 행정동 데이터가 섞여 있기에 분리 시켜 결측치 방지
   
 
-## EDA
+## EDA(탐색적 데이터 분석)
+### 1) 지역별(광역) 가장 많은 음식점 유형, 인구수 확인
 <img src="https://github.com/user-attachments/assets/0d25f745-a1b5-4e1a-b2ef-ccff864e8dfc" width="500">
 <img src="https://github.com/user-attachments/assets/13fd0928-3360-4091-8e13-2dab416e1f27" width="500">
+<img src="https://github.com/user-attachments/assets/69227048-02cd-4095-b24e-e3a5831b05ca" width="500">
 
 - 광역시별 치킨매장이 제일 많다. 
 - 광역시별 인구수 확인
+- 광역시별 총 극장수 확인
 
 
-## PCA 및 클러스터링
-### 1. PCA
+### 2) PCA
 <img src="https://github.com/user-attachments/assets/cb35bf5b-bdb4-416a-9cd5-a57791211083" width="600">
+<img src="https://github.com/user-attachments/assets/96fe801b-5990-4511-84c8-123d635299bb" wdth="600">
+
 
 - 목적 : 로딩 값을 추출하여 특정 지역에서는 인기 있는 음식점 유형 파악, 주요 요인 도출
 - 주성분 4개의 누적 설명 분산 비율이 약 81.4% 로 데이터의 주요 변동성을 충분히 설명
 - 주성분 5개 이상 선택 시 누적 설명 분산 비율이 약 90% 이상 증가 하지만 설명력 향상 대비 모델의 복잡성 증가가 크다고 판단
+- 각 요인 추출
 
-### KMeans 클러스터링
+### 3) KMeans 클러스터링
 <img src="https://github.com/user-attachments/assets/7b1c110e-62eb-4c91-a0cd-709b4d876ebf" width="600">
 
 - 목적 : 유사한 특성을 가진 지역을 군집화, 각 군집의 특성 분석
