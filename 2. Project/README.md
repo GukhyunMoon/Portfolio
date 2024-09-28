@@ -26,8 +26,8 @@
 ## 데이터 수집
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/31c5fd44-5f12-4fcd-b254-6bf7a315a84c" width="500" height="150" alt="이미지 1">
-  <img src="https://github.com/user-attachments/assets/33303e8b-05d4-4cab-91ef-c0feb03209a6" width="500" height="150" alt="이미지 2">
+  <img src="https://github.com/user-attachments/assets/7f722e58-ffa0-4d4a-add5-e3b7b1f61a71" width="500" alt="이미지 1">
+  <img src="https://github.com/user-attachments/assets/2df9e697-8c60-4c9b-844c-50a1665de1aa" width="500" alt="이미지 2">
 </div>
 
 - 공공 데이터 포털에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
