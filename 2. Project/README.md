@@ -17,7 +17,7 @@
 
 ## 프로세스
 
-<img src="https://github.com/user-attachments/assets/38fcdacd-ece1-49f9-9386-50789a8e4e40" width="800">
+<img width="1228" alt="image" src="https://github.com/user-attachments/assets/dd9a5c1b-0853-4b62-b50a-a6adaa92951f">" width="800">
 
 
 ## 주요 역할
