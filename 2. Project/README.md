@@ -26,16 +26,12 @@
 ## 데이터 수집
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/22c7bc01-83ab-448f-9f86-f0cbcc79eeb9" width="500" height="150" alt="이미지 1">
-  <img src="https://github.com/user-attachments/assets/856d5b15-b368-4e63-93c9-62e969c54032" width="500" height="150" alt="이미지 2">
+  <img src="https://github.com/user-attachments/assets/31c5fd44-5f12-4fcd-b254-6bf7a315a84c" width="500" height="150" alt="이미지 1">
+  <img src="https://github.com/user-attachments/assets/33303e8b-05d4-4cab-91ef-c0feb03209a6" width="500" height="150" alt="이미지 2">
 </div>
 
 - 공공 데이터 포털에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
 - 지역별 최근값, 최대치, 최소치일자, 최대치일자, 음식점 종류별, 법정동 데이터 생성
-
-
-### 총 음식점 리스트
-<img src="https://github.com/user-attachments/assets/350bf61c-17a1-4a7c-aef8-d757fe3f50a7" width="600">
 
 
 ## 데이터 전처리
