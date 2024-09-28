@@ -26,6 +26,11 @@
 3. KMeans 클러스터링을 통해 지역별 음식 유형의 특성을 군집화하여 중요 인사이트 도출
 
 
+## 분석 과정
+<img src="https://github.com/user-attachments/assets/b8f4f569-6f70-45bb-98ff-d92830ac20a3" width='400'>
+<img src="https://github.com/user-attachments/assets/3871deab-2b8c-42c8-9569-b8254ab5fba8" width='400'>
+
+
 ## 결과
 
 <img src="https://github.com/user-attachments/assets/3dc945d4-ed65-4c87-ab1d-568491ca18f0" width="800">
