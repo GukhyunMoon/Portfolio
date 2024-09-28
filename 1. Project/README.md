@@ -1,9 +1,9 @@
-<center>
-  <h1>
-    <img src="https://github.com/user-attachments/assets/a1ca9a3e-55d1-4573-a31f-ebc5059fa887" alt="외국인 대상 영문 법령 검색 AI" width="30" height="30">
+<div style="text-align:center;">
+  <h1 style="display:inline-block;">
+    <img src="https://github.com/user-attachments/assets/a1ca9a3e-55d1-4573-a31f-ebc5059fa887" alt="외국인 대상 영문 법령 검색 AI" width="50" height="50">
     <strong>외국인 대상 영문 법령 검색 AI</strong>
   </h1>
-</center>
+</div>
 
 ----------------------------
 ## 프로젝트 개요
