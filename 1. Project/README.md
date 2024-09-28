@@ -1,7 +1,5 @@
 <center>
-
-# ![139](https://github.com/user-attachments/assets/5c5ae845-f734-46d8-be58-8cd12ea1c07f) 외국인 대상 영문 법령 검색 AI
-  
+  <img src="https://github.com/user-attachments/assets/5c5ae845-f734-46d8-be58-8cd12ealc07f" alt="외국인 대상 영문 법령 검색 AI" width="200" height="200">
 </center>
 
 ----------------------------
