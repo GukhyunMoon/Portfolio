@@ -1,6 +1,8 @@
 <center>
-  <img src="https://github.com/user-attachments/assets/a1ca9a3e-55d1-4573-a31f-ebc5059fa887" width="30" height="30">
-  외국인 대상 영문 법령 검색 AI
+  <h1>
+    <img src="https://github.com/user-attachments/assets/a1ca9a3e-55d1-4573-a31f-ebc5059fa887" alt="외국인 대상 영문 법령 검색 AI" width="30" height="30">
+    <strong>외국인 대상 영문 법령 검색 AI</strong>
+  </h1>
 </center>
 
 ----------------------------
