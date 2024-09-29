@@ -12,12 +12,13 @@
 
 ## 프로젝트 개요
 
-<img src="https://github.com/user-attachments/assets/1d6d190d-fd1a-4bea-858d-1a266b8e1a9e" width="400">
+<img src="https://github.com/user-attachments/assets/2ebc075b-0505-4bfe-a49d-190e143293a7" width="400">
 
 - 코로나19 이후 국내 외식업체 폐업률 증가, 총 가게수 약 269만개 중 66.72% 비율로 절반 이상 문을 닫았음
 - 음식점이 문닫는 기간은 평균 3.1년, 지역별 어느 음식 유형이 유행하는지 파악해서 전략 수집
 
-<img width="1200" alt="image" src="https://github.com/user-attachments/assets/dd9a5c1b-0853-4b62-b50a-a6adaa92951f">
+<img src="https://github.com/user-attachments/assets/f17a05f4-e572-4308-8b90-ea3a00352706" width="400">
+
 
 
 ## 주요 역할
