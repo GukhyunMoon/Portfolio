@@ -59,9 +59,10 @@
 
 
 ### 2) PCA
-<img src="https://github.com/user-attachments/assets/cb35bf5b-bdb4-416a-9cd5-a57791211083" width="400">
-<img src="https://github.com/user-attachments/assets/96fe801b-5990-4511-84c8-123d635299bb" wdth="400">
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb35bf5b-bdb4-416a-9cd5-a57791211083" width="400">
+  <img src="https://github.com/user-attachments/assets/96fe801b-5990-4511-84c8-123d635299bb" width="400">
+</p>
 
 - 목적 : 로딩 값을 추출하여 특정 지역에서는 인기 있는 음식점 유형 파악, 주요 요인 도출
 - 주성분 4개의 누적 설명 분산 비율이 약 81.4% 로 데이터의 주요 변동성을 충분히 설명
