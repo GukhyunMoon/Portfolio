@@ -44,10 +44,10 @@
 
 # 데이터 수집 및 전처리
 
-<div style="display: flex; justify-content: center; flex-direction: row; gap: 20px;">  <!-- flex-direction: row로 설정 -->
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">  <!-- align-items: flex-start로 높이를 맞춤 -->
 
   <!-- 법령 본문 데이터 -->
-  <table border="1" style="width: 45%; text-align: center;">  <!-- 표 가운데 정렬 -->
+  <table border="1" style="width: 45%; text-align: center;">
     <tr>
       <th>법령일련번호</th>
       <th>Title</th>
@@ -61,7 +61,7 @@
   </table>
 
   <!-- 기본 정보 데이터 -->
-  <table border="1" style="width: 45%; text-align: center;">  <!-- 표 가운데 정렬 -->
+  <table border="1" style="width: 45%; text-align: center;">
     <tr>
       <th>법령일련번호</th>
       <th>법령명한글</th>
@@ -79,6 +79,8 @@
   </table>
 
 </div>
+
+<br>
 
 - 국가법령정보 공동활용의 영문법령 **API**를 활용하여 추출 : **[링크](https://law.go.kr/engLsSc.do?menuId=1&subMenuId=21&tabMenuId=117&query=)**
 
@@ -116,6 +118,18 @@
 - 코사인 유사도 계산 : **TF-IDF** 벡터를 사용하여 **문서 쌍 간의 유사도 계산**
 
 - 과정 : Cleaning 벡터화 과정 중 필요없는 단어 2차 정제, **Tokenization**은 **nltk**의 **tokenizer** 사용 
+
+
+- 문장 입력 : **"My passport was stolen, and I need help reporting it and obtaining a new one”**
+	            "제 여권을 도난 당했습니다. 신고하고 새 여권을 발급받는 데 도움이 필요합니다.”
+
+   		↳ TOP1 : 여권법 시행령	- 내용 : **여권 기재 정보 및 기재 방법**
+  		  TOP2 : 여권법		- 내용 : **여권 서비스 및 반환에 대한 조항**
+  		  TOP3 : 여권법		- 내용 : **유효한 여권 발급 및 요효기간에 관한 조항**
+
+
+
+
 
 
 
