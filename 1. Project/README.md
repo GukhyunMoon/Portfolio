@@ -109,7 +109,7 @@
 <img src="https://github.com/user-attachments/assets/7662a342-75ef-4c8a-8d18-365ecad141c0" width="800">
 <p>
 
-- 빠른 검색을 위한 Faiss 유클리안(거리기반) 검색 / Embedding Model은 bert기반 기존 Pre-trained model 사용
+- 빠른 검색을 위한 **Faiss 유클리안(거리기반)** 검색 / Embedding Model은 **bert**기반 기존 **Pre-trained model** 사용
 
 
    		↳ TOP1 : 여권법 	        - 내용 : 일회용 여권 관련 조항
@@ -119,7 +119,42 @@
 <br>
 
 ## 3. Keyword 기반 Embedder Fine tuning
+<p align="center">
+<img src="https://github.com/user-attachments/assets/be92675b-80a0-465d-84a3-dac41c3b3924" width="800">
+<p>
 
+- 공통 키워드 존재 여부로 0 / 1 라벨링 > Text-classification 모델 사용하여 긍 부정 학습
+
+
+		↳ TOP1 : 간접투자자산운용법 시행령 	- 내용 : 투자 자산운용업법 시행 목적
+  		  TOP2 : 간접투자자산운용법 시행규칙	- 내용 : 기준가격 차이의 허용 범위
+  		  TOP3 : 간접투자자산운용법 시행규칙	- 내용 : 종합 금융회사에 적용되는 특별 규칙
+   
+<br>
+
+## 4. Keyword Cluster 및 Embedder Fine tuning
+<p align="center">
+<img src="https://github.com/user-attachments/assets/63d52a45-9efb-493c-83ee-3a54843922cc" width="800">
+<p>
+
+- Keyword Embedding 후 UMAP을 통해 차원축소 > HDBSCAN Clustering 진행, 총 87개의 클러스터 확인
+- 각 조항의 클러스터 공통 여부에 따라 0 / 1 로 라벨링  > Embedding 후 Cosine 유사도와 라벨 비교를 통해 학습 (MSE Loss)
+
+
+		↳ TOP1 : 출입국 관리법 	- 내용 : 통지 처분 방법
+  		  TOP2 : 여권법 시행령	- 내용 : 요금 관련 조항
+  		  TOP3 : 출입국 관리법	- 내용 : 이민 위반자 신고 관련 조항
+   
+<br>
+
+
+# 최종 모델(앙상블)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f9e4594f-aa99-4022-aff8-085dcfeaa910" width="800">
+<p>
+
+- 위 4개의 모델의 결과를 바탕으로 최빈 법령 탐색
+- 최빈 법령에 포함된 법령으로 검색 범위 축소 > 최빈 조항 순으로 출력
 
 <br>
 
@@ -132,6 +167,7 @@
 - 검색한 문장과의 유사도 검사를 통해 관련 법령 검색 (4가지 모델의 결과를 Voting 후 최종 결과 도출)
 
 <br>
+
 
 # 기대효과 및 Lesson and Learned
 
