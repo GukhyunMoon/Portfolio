@@ -58,11 +58,11 @@
 - 지역별 남여 인구수 확인 결과 서울, 부산, 대구, 광주, 전북, 대전, 인천 등은 여자 인구가 많다.
 
 ### 2) 변수 데이터 간 상관관계 확인
-<center>
-<img src="https://github.com/user-attachments/assets/8aecf871-0f19-42cf-895a-ac98cda38428" width="500">
-</center>
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/8aecf871-0f19-42cf-895a-ac98cda38428" width="500">
+</p>
 
-### 2) PCA
+### 3) PCA
 
 <table>
   <tr>
@@ -106,14 +106,24 @@
 - 주성분 5개 이상 선택 시 누적 설명 분산 비율이 약 90% 이상 증가 하지만 설명력 향상 대비 모델의 복잡성 증가가 크다고 판단
 - 각 요인 추출
 
-### 3) KMeans 클러스터링
-<img src="https://github.com/user-attachments/assets/7b1c110e-62eb-4c91-a0cd-709b4d876ebf" width="600">
+### 4) KMeans 클러스터링
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/7b1c110e-62eb-4c91-a0cd-709b4d876ebf" width="600">
+</p>
 
 - 목적 : 유사한 특성을 가진 지역을 군집화, 각 군집의 특성 분석
 - 엘보우 방법을 사용해 최적의 클러스터 개수 결정 = 5
 
+### 5) 클러스터링 시각화
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/460f0a81-4a5b-4643-b5e6-0e4db07b69ea" width="800">
+<p>
 
-
+- 클러스터 0 (C0) : 10대 비율이 높은 지역, 학원가가 많아 10대 학생들이 몰려있음. (대표 지역 : 경기도 고양시 일산동구 백석동)
+- 클러스터 1 (C1) : 지하철 근처에 있는 지역, 교통이 편리하여 주거지나 상업지구로 인기가 높음 (대표 지역 : 서울시 마포구 상암동)
+- 클러스터 2 (C2) : 군부대 근처, 터미널 환승센터가 주변에 있음 (대표 지역 : 충청남도 계룡시 엄사면)
+- 클러스터 3 (C3) : 공항 근처나 대학과 관련된 상업 활동이 활발한 지역. (대표 지역 : 서울시 강서구 방화동, 공항동) 
+- 클러스터 4 (C4) : 다양한 특성을 가진 지역, 주로 시골일 가능성이 매우 높음 (대표 지역 : 경상북도 구미시 옥계동)
 
 
 ## 결과
