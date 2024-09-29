@@ -57,8 +57,10 @@
 - 지역별 치킨매장이 가장 많은걸로 확인된다. 
 - 지역별 남여 인구수 확인 결과 서울, 부산, 대구, 광주, 전북, 대전, 인천 등은 여자 인구가 많다.
 
-### 2) 
-
+### 2) 변수 데이터 간 상관관계 확인
+<center>
+<img src="https://github.com/user-attachments/assets/6cb29a81-122a-4aeb-af6e-93e47fc8b2a2" width="400">
+</center>
 
 ### 2) PCA
 
