@@ -53,11 +53,9 @@
 ### 1) 지역별(광역) 가장 많은 음식점 유형, 인구수 확인
 <img src="https://github.com/user-attachments/assets/160e49b4-a369-4186-9976-fa21da006357" width="500">
 <img src="https://github.com/user-attachments/assets/13fd0928-3360-4091-8e13-2dab416e1f27" width="500">
-<img src="https://github.com/user-attachments/assets/69227048-02cd-4095-b24e-e3a5831b05ca" width="500">
 
-- 광역시별 치킨매장이 제일 많다. 
-- 광역시별 인구수 확인
-- 광역시별 총 극장수 확인
+- 지역별 치킨매장이 가장 많은걸로 확인된다. 
+- 지역별 인구 수 확인
 
 
 ### 2) PCA
