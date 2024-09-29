@@ -80,19 +80,41 @@
 
 </div>
 
-- 국가법령정보 공동활용의 영문법령 API를 활용하여 추출 : [링크](https://law.go.kr/engLsSc.do?menuId=1&subMenuId=21&tabMenuId=117&query=)
-- 법령 본문과 기본정보로 분리해서 추출 / 총 2691개의 법령, 12만개의 조항 확인
-- 법령 중 외국인 비대상 법령 제거
-	 ↳  Ex:) 군사, 평창, 공무원, 전쟁, 운영, 국가 유공자, 공직자 … 등의 키워드를 포함한 법령
-- 조항 내 의미 없는 키워드 제거(노이즈 제거)
-	 ↳  Ex:) Definitions, Purpose, decree, presidential 등 같은 단어가 반복적으로 등장, 높은 빈도로 나타남(중요한 키워드의 가중치를 낮추고 전체 모델의 성능 저하 우려)
-- 불용어 제거
-	 ↳  Ex:) and, is, it, by, the 등 과 같은 불용어 제거,  모델의 성능을 향상시키고, 처리 속도를 증가
+- 국가법령정보 공동활용의 영문법령 **API**를 활용하여 추출 : **[링크]**(https://law.go.kr/engLsSc.do?menuId=1&subMenuId=21&tabMenuId=117&query=)
+
+- 법령 본문과 기본정보로 분리해서 추출 / 총 **2691**개의 법령, **12만개**의 조항 확인
+
+
+- 법령 중 외국인 비대상 법령 제거  
+	 ↳  Ex:) **군사, 평창, 공무원, 전쟁, 운영, 국가 유공자, 공직자** … 등의 키워드를 포함한 법령
+
+- 조항 내 의미 없는 키워드 제거(노이즈 제거)  
+	 ↳  Ex:) **Definitions, Purpose, decree, presidential** 등 같은 단어가 반복적으로 등장, 높은 빈도로 나타남(중요한 키워드의 가중치를 낮추고 전체 모델의 성능 저하 우려)
+
+- 불용어 제거  
+	 ↳  Ex:) **and, is, it, by, the 등 과 같은 불용어** 제거,  모델의 성능을 향상시키고, 처리 속도를 증가
  
 <br>
 
 
-# TF-IDF 유사도 모델
+# ML 모델 선택 및 학습
+## TF IDF 유사도 모델
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/9927aa69-ae21-4f57-bdd2-0360d2fa3131" width="800">
+<p>
+
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/b3162538-31d1-48a7-9af7-c1370387cc6c" width="1000">
+<p>
+
+### 모델 선택 이유
+
+- ↳ 핵심 단어 추출 : **TF-IDF**는 각 단어의 문서 내 중요도를 평가하여 문서 간 차이가 존재 
+  TF-IDF를 사용시 각 문서를 단어의 **벡터**로 표현하여 문서 주요 특징 추출 가능
+- 코사인 유사도 계산 : **TF-IDF** 벡터를 사용하여 **문서 쌍 간의 유사도 계산**
+
+- 과정 : Cleaning 벡터화 과정 중 필요없는 단어 2차 정제, **Tokenization**은 **nltk**의 **tokenizer** 사용 
+
 
 
 
