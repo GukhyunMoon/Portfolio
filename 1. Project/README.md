@@ -14,16 +14,14 @@
 
 ----------------------------------------------------------------
 
-<br>
-
 # 프로젝트 개요
 - 법령 정보의 복잡성과 언어 장벽으로 인해 외국인들이 법령을 이해하는 데 어려움을 겪음
 - 외국인 대상 범죄가 자주 발생 하지만 범죄 관련 기타 다른 법령 검색은 쉽지 않다.
 - 그렇기에 외국인을 위한 맞춤형 영문 법령을 쉽게 찾아볼 수 있는 법령 추천 AI를 생성
 
-<div align="center">
+<p align="center">
   <img src="https://github.com/user-attachments/assets/849ba289-4f06-4ed8-9656-a4a31b16ad79" width="1000">
-<div>
+<p>
 
 <br>
 
@@ -37,9 +35,10 @@
 <br>
 
 # 결과
-
-<img src="https://github.com/user-attachments/assets/59ce11bb-6b1f-43d2-b2aa-ef8b251666db" width="800">
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/59ce11bb-6b1f-43d2-b2aa-ef8b251666db" width="800">
+<p>
+  
 - 검색한 문장과의 유사도 검사를 통해 관련 법령 검색 (4가지 모델의 결과를 Voting 후 최종 결과 도출)
 
 <br>
