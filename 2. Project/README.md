@@ -59,8 +59,8 @@
 
 
 ### 2) PCA
-<img src="https://github.com/user-attachments/assets/cb35bf5b-bdb4-416a-9cd5-a57791211083" width="500">
-<img src="https://github.com/user-attachments/assets/96fe801b-5990-4511-84c8-123d635299bb" wdth="500">
+<img src="https://github.com/user-attachments/assets/cb35bf5b-bdb4-416a-9cd5-a57791211083" width="400">
+<img src="https://github.com/user-attachments/assets/96fe801b-5990-4511-84c8-123d635299bb" wdth="400">
 
 
 - 목적 : 로딩 값을 추출하여 특정 지역에서는 인기 있는 음식점 유형 파악, 주요 요인 도출
