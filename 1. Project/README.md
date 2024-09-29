@@ -44,10 +44,10 @@
 
 # 데이터 수집 및 전처리
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center; gap: 20px;">  <!-- gap으로 표 간격 추가 -->
 
   <!-- 법령 본문 데이터 -->
-  <table border="1" style="width: 45%;">
+  <table border="1" style="width: 45%; text-align: center;">  <!-- 표 가운데 정렬 -->
     <tr>
       <th>법령일련번호</th>
       <th>Title</th>
@@ -61,7 +61,7 @@
   </table>
 
   <!-- 기본 정보 데이터 -->
-  <table border="1" style="width: 45%;">
+  <table border="1" style="width: 45%; text-align: center;">  <!-- 표 가운데 정렬 -->
     <tr>
       <th>법령일련번호</th>
       <th>법령명한글</th>
@@ -80,7 +80,7 @@
 
 </div>
 
-- 국가법령정보 공동활용의 영문법령 **API**를 활용하여 추출 : **[링크]**(https://law.go.kr/engLsSc.do?menuId=1&subMenuId=21&tabMenuId=117&query=)
+- 국가법령정보 공동활용의 영문법령 **API**를 활용하여 추출 : **[링크](https://law.go.kr/engLsSc.do?menuId=1&subMenuId=21&tabMenuId=117&query=)**
 
 - 법령 본문과 기본정보로 분리해서 추출 / 총 **2691**개의 법령, **12만개**의 조항 확인
 
@@ -104,7 +104,7 @@
 <p>
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/b3162538-31d1-48a7-9af7-c1370387cc6c" width="1000">
+ <img src="https://github.com/user-attachments/assets/b3162538-31d1-48a7-9af7-c1370387cc6c" width="600">
 <p>
 
 ### 모델 선택 이유
