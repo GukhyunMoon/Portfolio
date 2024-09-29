@@ -158,8 +158,7 @@
 
 <br>
 
-
-# 결과
+## 결과
 <p align="center">
   <img src="https://github.com/user-attachments/assets/59ce11bb-6b1f-43d2-b2aa-ef8b251666db" width="800">
 <p>
