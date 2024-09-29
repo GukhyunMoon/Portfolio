@@ -59,7 +59,7 @@
 
 ### 2) 변수 데이터 간 상관관계 확인
 <center>
-<img src="https://github.com/user-attachments/assets/6cb29a81-122a-4aeb-af6e-93e47fc8b2a2" width="400">
+<img src="https://github.com/user-attachments/assets/8aecf871-0f19-42cf-895a-ac98cda38428" width="500">
 </center>
 
 ### 2) PCA
