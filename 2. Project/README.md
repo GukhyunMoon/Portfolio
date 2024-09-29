@@ -162,13 +162,12 @@
 
 # OLS 회귀 분석
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4f8ee753-a44b-47ea-9a11-04312e11e004" width="800">
+  <img src="https://github.com/user-attachments/assets/4f8ee753-a44b-47ea-9a11-04312e11e004" width="800">  
+</div>
 
 - 변수의 영향력 파악 : 각 독립 변수가 종속 변수에 미치는 영향을 평가하고 예측 모델의 유의성을 평가
 - 로딩값 회귀 분석 : 각 요인별 로딩값을 사용한 회귀 분석 결과
 - 종속 변수 : 총 영화관 수, 초중고 개수, 지하철 개수, 20대 이하 비율, 30대 비율, 40대 비율, 50대 비율, 성비, 인구 등
-  
-</div>
 
 <br>
 
