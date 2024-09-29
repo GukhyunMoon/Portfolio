@@ -162,7 +162,7 @@
 
 # OLS 회귀 분석
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/4f8ee753-a44b-47ea-9a11-04312e11e004" width="800">  
+  <img src="https://github.com/user-attachments/assets/36914d19-b2e4-4045-a5b2-4af564138ca4" width="800">  
 </div>
 
 - 변수의 영향력 파악 : 각 독립 변수가 종속 변수에 미치는 영향을 평가하고 예측 모델의 유의성을 평가
