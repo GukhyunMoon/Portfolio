@@ -10,7 +10,7 @@
 
 ---------------------------------------------------------------------------------
 
-## 프로젝트 개요
+# 프로젝트 개요
 
     - 코로나19 이후 국내 외식업체 폐업률 증가, 총 가게수 약 269만개 중 66.72% 비율로 절반 이상 문을 닫았음  
     - 음식점이 문닫는 기간은 평균 3.1년, 지역별 어느 음식 유형이 유행하는지 파악해서 전략 수집
@@ -18,13 +18,13 @@
 <img src="https://github.com/user-attachments/assets/e2b6955d-e464-4566-975d-d6b0d09c6be0" width="1200">
 
 
-## 주요 역할
+# 주요 역할
 - 데이터 수집 및 전처리(읍,면,동 컬럼을 세분화하여 법정동, 행정동으로 분리, [PublicDataReade](https://wooiljeong.github.io/python/pdr-code/) 모듈 사용)
 - 탐색적 데이터 분석(EDA)을 위해 PCA(주성분 분석)를 사용, 주요 변수 간 관계 탐색
 - KMeans 클러스터링을 통해 지역별 음식 유형의 특성을 군집화하여 중요 인사이트 도출
 
 
-## 데이터 수집
+# 데이터 수집
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/user-attachments/assets/7f722e58-ffa0-4d4a-add5-e3b7b1f61a71" width="500" alt="이미지 1">
@@ -35,7 +35,7 @@
 - 지역별 최근값, 최대치, 최소치일자, 최대치일자, 음식점 종류별, 법정동 데이터 생성
 
 
-## 데이터 전처리
+# 데이터 전처리
 
 <div style="display: flex; justify-content: space-around;">
   <img src="https://github.com/user-attachments/assets/6abfcf80-ee4b-46ab-85f0-9fa2908a38d7" width="500" alt="이미지 1">
@@ -49,21 +49,29 @@
 - 법정동, 행정동 데이터가 섞여 있기에 분리 시켜 결측치 방지
   
 
-## EDA(탐색적 데이터 분석)
-### 1) 지역별(광역) 가장 많은 음식점 유형, 인구수 확인
+# EDA(탐색적 데이터 분석)
+## 1) 지역별(광역) 가장 많은 음식점 유형, 인구수 확인
 <img src="https://github.com/user-attachments/assets/160e49b4-a369-4186-9976-fa21da006357" width="500">
 <img src="https://github.com/user-attachments/assets/26d769e2-5864-446c-a50a-860f295e2674" width="500">
 
 - 지역별 치킨매장이 가장 많은걸로 확인된다. 
 - 지역별 남여 인구수 확인 결과 서울, 부산, 대구, 광주, 전북, 대전, 인천 등은 여자 인구가 많다.
 
-### 2) 변수 데이터 간 상관관계 확인
+
+## 2) 변수 데이터 간 상관관계 확인
 <p align="center">
     <img src="https://github.com/user-attachments/assets/8aecf871-0f19-42cf-895a-ac98cda38428" width="500">
 </p>
 
-### 3) PCA
+1.	10대 비율 ↔ 40대 비율
+2.	20대 비율 ↔ 30대 비율 
+3.	평균 소득금액 ↔ 2024년_남자
+4.	평균 소득금액 ↔ 2024년_여자
+5.	CGV 극장 수 ↔ 롯데시네마 극장 수
+6.	CGV 극장 수 ↔ 메가박스 극장 수
 
+
+## 3) PCA
 <table>
   <tr>
     <td>
@@ -106,7 +114,8 @@
 - 주성분 5개 이상 선택 시 누적 설명 분산 비율이 약 90% 이상 증가 하지만 설명력 향상 대비 모델의 복잡성 증가가 크다고 판단
 - 각 요인 추출
 
-### 4) KMeans 클러스터링
+
+## 4) KMeans 클러스터링
 <p align="center">
     <img src="https://github.com/user-attachments/assets/7b1c110e-62eb-4c91-a0cd-709b4d876ebf" width="600">
 </p>
@@ -114,9 +123,10 @@
 - 목적 : 유사한 특성을 가진 지역을 군집화, 각 군집의 특성 분석
 - 엘보우 방법을 사용해 최적의 클러스터 개수 결정 = 5
 
-### 5) 클러스터링 시각화
+
+## 5) 클러스터링 시각화
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/460f0a81-4a5b-4643-b5e6-0e4db07b69ea" width="800">
+    <img src="https://github.com/user-attachments/assets/460f0a81-4a5b-4643-b5e6-0e4db07b69ea" width="900">
 <p>
 
 - 클러스터 0 (C0) : 10대 비율이 높은 지역, 학원가가 많아 10대 학생들이 몰려있음. (대표 지역 : 경기도 고양시 일산동구 백석동)
@@ -126,7 +136,21 @@
 - 클러스터 4 (C4) : 다양한 특성을 가진 지역, 주로 시골일 가능성이 매우 높음 (대표 지역 : 경상북도 구미시 옥계동)
 
 
-## 결과
+## 6) 변수 간 관계 탐색 
+<div align="center">
+
+|     요인      |            가장 높은 관계            |            가장 낮은 관계            |
+|:-------------:|:------------------------------------:|:------------------------------------:|
+| **loading10k0** | 1. 20대 이하 비율<br>2. 30대 비율<br>3. 40대 비율 | 1. 성비<br>2. 50대 비율<br>3. 인구 |
+| **loading10k1** | 1. 40대 비율<br>2. 20대 이하 비율<br>3. 지하철 개수 | 1. 성비<br>2. 50대 비율<br>3. 30대 비율 |
+| **loading10k2** | 1. 30대 비율<br>2. 지하철 개수<br>3. 총 영화관 수 | 1. 성비<br>2. 50대 비율<br>3. 40대 비율 |
+| **loading10k3** | 1. 40대 비율<br>2. 초중고 개수<br>3. 총 영화관 수 | 1. 성비<br>2. 50대 비율<br>3. 30대 비율 |
+
+</div>
+
+
+
+# 결과
 
 <img src="https://github.com/user-attachments/assets/3dc945d4-ed65-4c87-ab1d-568491ca18f0" width="800">
 
