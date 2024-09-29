@@ -43,42 +43,9 @@
 <br>
 
 # 데이터 수집 및 전처리
-
-<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px;">  <!-- align-items: flex-start로 높이를 맞춤 -->
-
-  <!-- 법령 본문 데이터 -->
-  <table border="1" style="width: 45%; text-align: center;">
-    <tr>
-      <th>법령일련번호</th>
-      <th>Title</th>
-      <th>Contents</th>
-    </tr>
-    <tr>
-      <td>253949</td>
-      <td>Purpose</td>
-      <td>Article 1 (Purpose) The purpose of this Act is to strengthen the national capacity to rescue and provide emergency medical services, protect the lives, bodies, and property of the people, and contribute to the improvement of the quality of lives of the people by prescribing necessary matters concerning the efficient operation of 119 rescue and emergency medical services in the cases of fire, disaster, accident, terrorism, or other emergencies.</td>
-    </tr>
-  </table>
-
-  <!-- 기본 정보 데이터 -->
-  <table border="1" style="width: 45%; text-align: center;">
-    <tr>
-      <th>법령일련번호</th>
-      <th>법령명한글</th>
-      <th>법령명영문</th>
-      <th>소관부처명</th>
-      <th>법령구분명</th>
-    </tr>
-    <tr>
-      <td>253949</td>
-      <td>119구조ㆍ구급에 관한 법률</td>
-      <td>ACT ON 119 RESCUE AND EMERGENCY MEDICAL SERVICES</td>
-      <td>소방청, 소방청, 소방청, 소방청, 소방청</td>
-      <td>법률</td>
-    </tr>
-  </table>
-
-</div>
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/e45f06e5-0693-469b-9629-b222a63e00e5" width="1000">	
+<p>
 
 <br>
 
@@ -100,7 +67,7 @@
 
 
 # ML 모델 선택 및 학습
-## TF IDF 유사도 모델
+## 1. TF IDF 유사도 모델
 <p align="center">
  <img src="https://github.com/user-attachments/assets/b3162538-31d1-48a7-9af7-c1370387cc6c" width="600">
 <p>
@@ -123,15 +90,35 @@
 - 문장 입력 : **"My passport was stolen, and I need help reporting it and obtaining a new one”**
 	            "제 여권을 도난 당했습니다. 신고하고 새 여권을 발급받는 데 도움이 필요합니다.”
 
-   		↳ TOP1 : 여권법 시행령	- 내용 : **여권 기재 정보 및 기재 방법**
-  		  TOP2 : 여권법		- 내용 : **여권 서비스 및 반환에 대한 조항**
-  		  TOP3 : 여권법		- 내용 : **유효한 여권 발급 및 요효기간에 관한 조항**
+   		↳ TOP1 : 여권법 시행령	- 내용 : 여권 기재 정보 및 기재 방법
+  		  TOP2 : 여권법		- 내용 : 여권 서비스 및 반환에 대한 조항
+  		  TOP3 : 여권법		- 내용 : 유효한 여권 발급 및 요효기간에 관한 조항
+
+<br>
 
 
+# DL 모델 선택 및 학습(BERT 기반 문장 유사도 모델)
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/472dd12f-898f-40c1-991b-b03657f8b07d" width="800">
+<p>
+
+<br>
+
+## 2. Keyword 기반 Faiss 유사도 모델
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7662a342-75ef-4c8a-8d18-365ecad141c0" width="800">
+<p>
+
+- 빠른 검색을 위한 Faiss 유클리안(거리기반) 검색 / Embedding Model은 bert기반 기존 Pre-trained model 사용
 
 
+   		↳ TOP1 : 여권법 	        - 내용 : 일회용 여권 관련 조항
+  		  TOP2 : 여권법 시행령	- 내용 : 긴급한 인도적 사유로 인한 예외적 여권 발급
+  		  TOP3 : 여권법		- 내용 : 처벌 관련 조항
 
+<br>
 
+## 3. Keyword 기반 Embedder Fine tuning
 
 
 <br>
