@@ -44,7 +44,7 @@
 
 # 데이터 수집 및 전처리
 
-<div style="display: flex; justify-content: center; gap: 20px;">  <!-- gap으로 표 간격 추가 -->
+<div style="display: flex; justify-content: center; flex-direction: row; gap: 20px;">  <!-- flex-direction: row로 설정 -->
 
   <!-- 법령 본문 데이터 -->
   <table border="1" style="width: 45%; text-align: center;">  <!-- 표 가운데 정렬 -->
@@ -100,12 +100,14 @@
 # ML 모델 선택 및 학습
 ## TF IDF 유사도 모델
 <p align="center">
- <img src="https://github.com/user-attachments/assets/9927aa69-ae21-4f57-bdd2-0360d2fa3131" width="800">
+ <img src="https://github.com/user-attachments/assets/b3162538-31d1-48a7-9af7-c1370387cc6c" width="600">
 <p>
 
 <p align="center">
- <img src="https://github.com/user-attachments/assets/b3162538-31d1-48a7-9af7-c1370387cc6c" width="600">
+ <img src="https://github.com/user-attachments/assets/9927aa69-ae21-4f57-bdd2-0360d2fa3131" width="800">
 <p>
+
+<br>
 
 ### 모델 선택 이유
 
