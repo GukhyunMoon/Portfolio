@@ -161,8 +161,9 @@
 <br>
 
 # OLS 회귀 분석
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/36914d19-b2e4-4045-a5b2-4af564138ca4" width="800">  
+  <img src="https://github.com/user-attachments/assets/36914d19-b2e4-4045-a5b2-4af564138ca4" width="1200">  
 </div>
 
 - 변수의 영향력 파악 : 각 독립 변수가 종속 변수에 미치는 영향을 평가하고 예측 모델의 유의성을 평가
@@ -173,7 +174,7 @@
 
 # 결과
 
-<img src="https://github.com/user-attachments/assets/3dc945d4-ed65-4c87-ab1d-568491ca18f0" width="1200">
+<img src="https://github.com/user-attachments/assets/3dc945d4-ed65-4c87-ab1d-568491ca18f0" width="1000">
 
 - OLS 회귀 분석 : 각 요인별 독립 변수들이 종속 변수(음식점 밀도)에 미치는 영향을 평가하고 이를 바탕으로 상권을 예측
 - TOP 3 와 Worst 3 지역 도출 : 실제 값과 예측 값 차이가 큰 기준으로 선정
