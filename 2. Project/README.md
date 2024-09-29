@@ -52,10 +52,12 @@
 ## EDA(탐색적 데이터 분석)
 ### 1) 지역별(광역) 가장 많은 음식점 유형, 인구수 확인
 <img src="https://github.com/user-attachments/assets/160e49b4-a369-4186-9976-fa21da006357" width="500">
-<img src="https://github.com/user-attachments/assets/13fd0928-3360-4091-8e13-2dab416e1f27" width="500">
+<img src="https://github.com/user-attachments/assets/26d769e2-5864-446c-a50a-860f295e2674" width="500">
 
 - 지역별 치킨매장이 가장 많은걸로 확인된다. 
-- 지역별 인구 수 확인
+- 지역별 남여 인구수 확인 결과 서울, 부산, 대구, 광주, 전북, 대전, 인천 등은 여자 인구가 많다.
+
+### 2) 
 
 
 ### 2) PCA
