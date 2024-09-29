@@ -21,7 +21,7 @@
 
 <br>
 
-# 프로젝트 개요
+# 프로세스
 <p align="center">
   <img src="https://github.com/user-attachments/assets/849ba289-4f06-4ed8-9656-a4a31b16ad79" width="1000">
 <p>
@@ -37,7 +37,7 @@
 
 <br>
 
-# 데이터 수집
+# 데이터 수집 및 전처리
 
 <div style="display: flex; justify-content: center;">
 
@@ -77,11 +77,17 @@
 
 - 국가법령정보 공동활용의 영문법령 API를 활용하여 추출 : [링크](https://law.go.kr/engLsSc.do?menuId=1&subMenuId=21&tabMenuId=117&query=)
 - 법령 본문과 기본정보로 분리해서 추출 / 총 2691개의 법령, 12만개의 조항 확인
+- 법령 중 외국인 비대상 법령 제거
+	 ↳  Ex:) 군사, 평창, 공무원, 전쟁, 운영, 국가 유공자, 공직자 … 등의 키워드를 포함한 법령
+- 조항 내 의미 없는 키워드 제거(노이즈 제거)
+	 ↳  Ex:) Definitions, Purpose, decree, presidential 등 같은 단어가 반복적으로 등장, 높은 빈도로 나타남(중요한 키워드의 가중치를 낮추고 전체 모델의 성능 저하 우려)
+- 불용어 제거
+	 ↳  Ex:) and, is, it, by, the 등 과 같은 불용어 제거,  모델의 성능을 향상시키고, 처리 속도를 증가
  
 <br>
 
 
-# 데이터 수집
+# TF-IDF 유사도 모델
 
 
 
