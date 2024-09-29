@@ -19,6 +19,9 @@
 - 외국인 대상 범죄가 자주 발생 하지만 범죄 관련 기타 다른 법령 검색은 쉽지 않다.
 - 그렇기에 외국인을 위한 맞춤형 영문 법령을 쉽게 찾아볼 수 있는 법령 추천 AI를 생성
 
+<br>
+
+# 프로젝트 개요
 <p align="center">
   <img src="https://github.com/user-attachments/assets/849ba289-4f06-4ed8-9656-a4a31b16ad79" width="1000">
 <p>
@@ -31,6 +34,56 @@
 3. 코사인 유사도를 통한 텍스트 간 유사도 계산 및 상위 유사 항목 도출
 4. 상위 유사 텍스트 중 가장 자주 등장하는 법령명 분석
 5. 법령 최적화를 위해 다양한 n-gram 과 텍스트 전처리 기법 활용
+
+<br>
+
+# 데이터 수집
+
+<div style="display: flex; justify-content: center;">
+
+  <!-- 법령 본문 데이터 -->
+  <table border="1" style="width: 45%;">
+    <tr>
+      <th>법령일련번호</th>
+      <th>Title</th>
+      <th>Contents</th>
+    </tr>
+    <tr>
+      <td>253949</td>
+      <td>Purpose</td>
+      <td>Article 1 (Purpose) The purpose of this Act is to strengthen the national capacity to rescue and provide emergency medical services, protect the lives, bodies, and property of the people, and contribute to the improvement of the quality of lives of the people by prescribing necessary matters concerning the efficient operation of 119 rescue and emergency medical services in the cases of fire, disaster, accident, terrorism, or other emergencies.</td>
+    </tr>
+  </table>
+
+  <!-- 기본 정보 데이터 -->
+  <table border="1" style="width: 45%;">
+    <tr>
+      <th>법령일련번호</th>
+      <th>법령명한글</th>
+      <th>법령명영문</th>
+      <th>소관부처명</th>
+      <th>법령구분명</th>
+    </tr>
+    <tr>
+      <td>253949</td>
+      <td>119구조ㆍ구급에 관한 법률</td>
+      <td>ACT ON 119 RESCUE AND EMERGENCY MEDICAL SERVICES</td>
+      <td>소방청, 소방청, 소방청, 소방청, 소방청</td>
+      <td>법률</td>
+    </tr>
+  </table>
+
+</div>
+
+- 국가법령정보 공동활용의 영문법령 API를 활용하여 추출 : [링크](https://law.go.kr/engLsSc.do?menuId=1&subMenuId=21&tabMenuId=117&query=)
+- 법령 본문과 기본정보로 분리해서 추출 / 총 2691개의 법령, 12만개의 조항 확인
+ 
+<br>
+
+
+# 데이터 수집
+
+
 
 <br>
 
