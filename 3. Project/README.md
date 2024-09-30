@@ -57,7 +57,7 @@
 <p>
 
 - 신규 유저 기준 : 선호도 조사를 통해 3개를 선택해야 하기에 4이상 10이하로 선정
-- 파레토 법칙에 따른 소프트 유저, 하드 유저 분리
+- **파레토 법칙**에 따른 소프트 유저, 하드 유저 분리
 
 <br>
 
@@ -68,7 +68,7 @@
 
 # 결과
 <p align="center">
- <img src="https://github.com/user-attachments/assets/9c3d27aa-5f85-40ed-acce-d2f7546225ba" width="800">	
+ <img src="https://github.com/user-attachments/assets/2872180e-bebe-42b8-8ceb-b13eca993f7c" width="800">	
 <p>
 
 <br>
