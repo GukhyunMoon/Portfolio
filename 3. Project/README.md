@@ -64,13 +64,19 @@
 # 신규 유저
 
 
+<br>
 
 # 결과
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/9c3d27aa-5f85-40ed-acce-d2f7546225ba" width="800">	
+<p>
 
-<img src="https://github.com/user-attachments/assets/c1988e23-c366-411a-8341-ee904630525d" width="800">
+<br>
 
 - 유사성 우수 모델과 다양성 우수 모델을 유저 특성에 맞춰 앙상블 진행
 - 유저별 추천 모델 중 각 평가 지표가 우수한 모델로 선정 > 모델결과에 가중치를 곱하여 최종 추천모델 구현
+
+<br>
 
 # 기대효과 및 Lesson and Learned
 
