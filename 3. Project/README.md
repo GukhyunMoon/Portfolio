@@ -24,7 +24,7 @@
 
 # 프로세스
 <p align="center">
- <img src="https://github.com/user-attachments/assets/f4fafdb3-4ab8-4a22-95eb-ea763c09ca5e" width="800">
+ <img src="https://github.com/user-attachments/assets/f4fafdb3-4ab8-4a22-95eb-ea763c09ca5e" width="1000">
 <p>
 
 <br>
@@ -68,8 +68,8 @@
 
 # 신규 유저
 <p align="center">
- <img src="https://github.com/user-attachments/assets/7bb817ce-33fe-4f24-bd0d-91097e46a36e" width="800">
- <img src="<img width="500 " alt="image" src="https://github.com/user-attachments/assets/cbc32ea6-1ad5-4112-97de-3a518376e9ec">
+ <img src="https://github.com/user-attachments/assets/7bb817ce-33fe-4f24-bd0d-91097e46a36e" width="500">
+ <img width="800" alt="image" src="https://github.com/user-attachments/assets/d8e5706f-3fcb-418f-b1a4-bfdac4df2440">
 <p>
 <br>
 
