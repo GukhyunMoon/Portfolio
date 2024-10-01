@@ -87,7 +87,7 @@
 # 기존 유저(소프트 유저 / 하드 유저)
 <p align="center">
  <img width="800" alt="image" src="https://github.com/user-attachments/assets/2c2f15da-46c4-493d-8288-db929388b297">
- <img src="https://github.com/user-attachments/assets/d0dde9ea-0a9c-4db0-bfa9-6c4c0267e994" width="800" height="150">
+ <img src="https://github.com/user-attachments/assets/d0dde9ea-0a9c-4db0-bfa9-6c4c0267e994" width="800" height="100">
 <p>
 
 • 기존 유저의 경우 NDCG 와 다양성 평가지표 사용
