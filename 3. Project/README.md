@@ -68,8 +68,8 @@
 
 # 신규 유저
 <p align="center">
- <img src="https://github.com/user-attachments/assets/7bb817ce-33fe-4f24-bd0d-91097e46a36e" width="500">
  <img width="800" alt="image" src="https://github.com/user-attachments/assets/d8e5706f-3fcb-418f-b1a4-bfdac4df2440">
+ <img src="https://github.com/user-attachments/assets/4867c8ea-417f-448a-9a53-88f563611483" width="600">
 <p>
 <br>
 
@@ -85,6 +85,11 @@
 <br>
 
 # 기존 유저(소프트 유저 / 하드 유저)
+<p align="center">
+ <img width="600" alt="image" src="https://github.com/user-attachments/assets/2c2f15da-46c4-493d-8288-db929388b297">
+ <img src="https://github.com/user-attachments/assets/d0dde9ea-0a9c-4db0-bfa9-6c4c0267e994" width="600">
+<p>
+
 • 기존 유저의 경우 NDCG 와 다양성 평가지표 사용
 • 다양성 평가지표
 	 ↳ 얼마나 다양한 게임들이 추천되는지 확인하기 위해 카테고리 기준으로 Clusterning 후
