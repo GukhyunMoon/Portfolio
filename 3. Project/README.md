@@ -87,7 +87,7 @@
 # 기존 유저(소프트 유저 / 하드 유저)
 <p align="center">
  <img width="800" alt="image" src="https://github.com/user-attachments/assets/2c2f15da-46c4-493d-8288-db929388b297">
- <img src="https://github.com/user-attachments/assets/d0dde9ea-0a9c-4db0-bfa9-6c4c0267e994" width="900" height="120">
+ <img src="https://github.com/user-attachments/assets/9c512dc8-7f9d-4f9f-b160-cb0a94960fcb" width="800">
 <p>
 
 - 기존 유저의 경우 **NDCG** 와 **다양성 평가지표** 사용
@@ -97,13 +97,14 @@
 
 ### 선정 모델
 
-NDCG 우수 모델 
-	소프트 유저 : 유저–아이템 Embedding 활용, 협업 필터링에 인공신경망을 결합한 NCF 모델
-	하드 유저 : 그래프 구조를 단순화하여 유저-아이템간의 관계성만 표현한 LightGCN모델
+#### 소프트 유저
 
-다양성 지표 우수 모델
-	소프트 유저 : Cross Feature 사용해 선형, 비선형적 접근을 결합한 Wide & Deep 모델
-	하드 유저 : 피어슨 상관계수를 활용한 아이템 기반 협업 필터링
+- 유저–아이템 Embedding 활용, 협업 필터링에 인공신경망을 결합한 **NCF** 모델
+- Cross Feature 사용해 선형, 비선형적 접근을 결합한 **Wide & Deep** 모델
+
+#### 하드 유저
+- 그래프 구조를 단순화하여 유저-아이템간의 관계성만 표현한 **LightGCN** 모델
+- 피어슨 상관계수를 활용한 **아이템 기반 협업 필터링**
 
 <br>
 
