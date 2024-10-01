@@ -87,13 +87,15 @@
 # 기존 유저(소프트 유저 / 하드 유저)
 <p align="center">
  <img width="800" alt="image" src="https://github.com/user-attachments/assets/2c2f15da-46c4-493d-8288-db929388b297">
- <img src="https://github.com/user-attachments/assets/9c512dc8-7f9d-4f9f-b160-cb0a94960fcb" width="800">
+ <img src="https://github.com/user-attachments/assets/9c512dc8-7f9d-4f9f-b160-cb0a94960fcb" width="900" height="120">
 <p>
 
 - 기존 유저의 경우 **NDCG** 와 **다양성 평가지표** 사용
 - **다양성 평가지표** : 얼마나 다양한 게임들이 추천되는지 확인하기 위해 카테고리 기준으로 Clusterning > 추천된 게임들이 Cluster 에 포함되는지 선정
 - 과정 : 차원 축소 UMAP + 클러스터링 HDBSCAN > 약 **3,800개**의 카테고리 > **21개** 의 클러스터 생성
 - 모델 선정 기준 : NDCG, 다양성 지표에서 우수한 모델 선정
+
+<br>
 
 ### 선정 모델
 
