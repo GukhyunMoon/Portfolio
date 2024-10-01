@@ -23,8 +23,9 @@
 <br>
 
 # 프로세스
-
-<img src="https://github.com/user-attachments/assets/37184eae-f974-482b-8e3e-56a5f1148c8c" width="800">
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/f4fafdb3-4ab8-4a22-95eb-ea763c09ca5e" width="800">
+<p>
 
 <br>
 
@@ -41,6 +42,8 @@
  <img src="https://github.com/user-attachments/assets/8bb6fea3-19c2-4833-ae58-cd69abbe1e7b" width="800">	
 <p>
 
+<br>
+
 - 세계 최대 보드게임 사이트인 **[Board GameGeek](https://boardgamegeek.com/)** 에서 **BGG API**를 통해 데이터 수집
 - **수집 결과**
   
@@ -56,13 +59,40 @@
  <img src="https://github.com/user-attachments/assets/15199718-16c4-4b6c-9954-cc40b96f7031" width="800">	
 <p>
 
+<br>
+
 - 신규 유저 기준 : 선호도 조사를 통해 3개를 선택해야 하기에 4이상 10이하로 선정
 - **파레토 법칙**에 따른 소프트 유저, 하드 유저 분리
 
 <br>
 
 # 신규 유저
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/7bb817ce-33fe-4f24-bd0d-91097e46a36e" width="800">
+ <img src="<img width="500 " alt="image" src="https://github.com/user-attachments/assets/cbc32ea6-1ad5-4112-97de-3a518376e9ec">
+<p>
+<br>
 
+- 신규 유저의 경우 확인할 수 있는 아이템이 많지 않기에 Hit Rate 평가지표 사용
+
+1. 신규유저에게 3개의 아이템을 랜덤으로 선택
+2. 이를 기반으로 20개의 게임을 추천 
+3. 선택한 게임 제외 
+해당 유저 게임 리스트에 추천 게임이 1개라도 존재할 경우 적중으로 판단
+
+**모델 선정** : Cosine 유사도를 활용한 아이템 기반 협업 필터링 : **69%**
+
+<br>
+
+# 기존 유저(소프트 유저 / 하드 유저)
+• 기존 유저의 경우 NDCG 와 다양성 평가지표 사용
+• 다양성 평가지표
+	 ↳ 얼마나 다양한 게임들이 추천되는지 확인하기 위해 카테고리 기준으로 Clusterning 후
+	     추천된 게임들이 Cluster 에 포함되는지를 기준으로 평가지표 선정
+• 과정
+	↳ 차원 축소 UMAP + 클러스터링 HDBSCAN > 약 3,800개의 카테고리 > 21개 의 클러스터 생성
+
+• 모델 선정 : NDCG, 다양성 지표에서 우수한 모델 선정
 
 <br>
 
