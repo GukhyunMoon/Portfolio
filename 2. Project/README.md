@@ -146,7 +146,7 @@
 
 ## 4) KMeans 클러스터링
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/7b1c110e-62eb-4c91-a0cd-709b4d876ebf" width="600">
+    <img src="https://github.com/user-attachments/assets/4b7bfb73-4f66-404b-9aaf-839bb29649c8" width="600">
 </p>
 
 <br>
