@@ -67,7 +67,9 @@
 
 <br>
 
-# 신규 유저
+# 유저별 다양한 추천 모델
+
+## 1. 신규 유저
 <p align="center">
  <img width="800" alt="image" src="https://github.com/user-attachments/assets/d8e5706f-3fcb-418f-b1a4-bfdac4df2440">
  <img src="https://github.com/user-attachments/assets/4867c8ea-417f-448a-9a53-88f563611483" width="600">
@@ -85,7 +87,7 @@
 
 <br>
 
-# 기존 유저(소프트 유저 / 하드 유저)
+## 2. 기존 유저(소프트 유저 / 하드 유저)
 <p align="center">
  <img width="800" alt="image" src="https://github.com/user-attachments/assets/2c2f15da-46c4-493d-8288-db929388b297">
  <img src="https://github.com/user-attachments/assets/9c512dc8-7f9d-4f9f-b160-cb0a94960fcb" width="900" height="120">
@@ -115,8 +117,12 @@
 # 신규 게임 추천
 
 
+<br>
 
-
+- 사용자 게임 경험 중 카테고리 부분만 분석해 가장 많이 경험한 카테고리 3개를 기반
+- Category TOP3 : 카드게임, 판타지, 경제
+- 출시연도가 작년 ~ 올해 게임 중 **평균 평점**이 **8.0 이상 2개 이상 의 카테고리가 일치**
+- 사용자가 플레이해본 적 없는 **3가지 게임을** 랜덤으로 추천하는 함수 구현
 
 <br>
 
