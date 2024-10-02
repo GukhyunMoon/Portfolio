@@ -37,6 +37,8 @@
   <img src="https://github.com/user-attachments/assets/2df9e697-8c60-4c9b-844c-50a1665de1aa" width="500" alt="이미지 2">
 </div>
 
+<br>
+
 - [공공 데이터포털](https://www.data.go.kr/)에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
 - 지역별 최근값, 최대치, 최소치일자, 최대치일자, 음식점 종류별, 법정동 데이터 생성
 
@@ -48,6 +50,8 @@
   <img src="https://github.com/user-attachments/assets/6abfcf80-ee4b-46ab-85f0-9fa2908a38d7" width="500" alt="이미지 1">
   <img src="https://github.com/user-attachments/assets/bf554593-f60a-4e9b-b7cc-ff1676de0716" width="500" alt="이미지 2">
 </div>
+
+<br>
 
 - 기존 데이터 : 지역별 편차가 크고 표준화가 되어있지 않음
 - 해당 지역을 총 음식점 당 가게수로 대체 > 지역별 편차 최소화
@@ -63,15 +67,21 @@
 <img src="https://github.com/user-attachments/assets/160e49b4-a369-4186-9976-fa21da006357" width="500">
 <img src="https://github.com/user-attachments/assets/26d769e2-5864-446c-a50a-860f295e2674" width="500">
 
-- 지역별 치킨매장이 가장 많은걸로 확인된다. 
-- 지역별 남여 인구수 확인 결과 서울, 부산, 대구, 광주, 전북, 대전, 인천 등은 여자 인구가 많다.
-
 <br>
+
+- 지역별 치킨매장이 가장 많은걸로 확인된다.
+  
+- 지역별 남여 인구수 확인 결과 서울, 부산, 대구, 광주, 전북, 대전, 인천 등은 여자 인구가 많다.
+  (다음은 음식점 유형이 각 변수 데이터들과 어떤 상관관계를 가지고 있는지 확인)
+  
+<br>
+
 
 ## 2) 변수 데이터 간 상관관계 확인
 <p align="center">
     <img src="https://github.com/user-attachments/assets/8aecf871-0f19-42cf-895a-ac98cda38428" width="500">
 </p>
+
 
 1. 10대 비율 ↔ 40대 비율
 2. 20대 비율 ↔ 30대 비율 
@@ -120,6 +130,8 @@
   </tr>
 </table>
 
+<br>
+
 - 목적 : 로딩 값을 추출하여 특정 지역에서는 인기 있는 음식점 유형 파악, 주요 요인 도출
 - 주성분 4개 선택 이유 : 누적 설명 분산 비율이 약 **81.4%** 로 데이터의 주요 변동성을 충분히 설명
 - 주성분 5개 이상 선택 시 누적 설명 분산 비율이 약 **90%** 이상 증가 하지만 설명력 향상 대비 모델의 **복잡성 증가**가 크다고 판단
@@ -131,6 +143,8 @@
     <img src="https://github.com/user-attachments/assets/7b1c110e-62eb-4c91-a0cd-709b4d876ebf" width="600">
 </p>
 
+<br>
+
 - 목적 : 유사한 특성을 가진 지역을 군집화, 각 군집의 특성 분석
 - **엘보우** 방법을 사용해 최적의 클러스터 개수 결정 = **5**
 <br>
@@ -140,6 +154,8 @@
 <p align="center">
     <img src="https://github.com/user-attachments/assets/460f0a81-4a5b-4643-b5e6-0e4db07b69ea" width="900">
 <p>
+
+<br>
 
 - 클러스터 0 (C0) : 10대 비율이 높은 지역, 학원가가 많아 10대 학생들이 몰려있음. (대표 지역 : 경기도 고양시 일산동구 백석동)
 - 클러스터 1 (C1) : 지하철 근처에 있는 지역, 교통이 편리하여 주거지나 상업지구로 인기가 높음 (대표 지역 : 서울시 마포구 상암동)
