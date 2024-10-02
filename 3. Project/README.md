@@ -6,7 +6,7 @@
 
 **💭 Language : Python**
 
-**🛠 Tool : **Google Colab**
+**🛠 Tool : Google Colab**
 
 **📅 진행기간 : 2024.07.15 ~ 2024.08.15**
 
