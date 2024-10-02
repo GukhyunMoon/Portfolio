@@ -37,7 +37,7 @@
   <img src="https://github.com/user-attachments/assets/2df9e697-8c60-4c9b-844c-50a1665de1aa" width="500" alt="이미지 2">
 </div>
 
-- **[공공 데이터포털](https://www.data.go.kr/)**에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
+- [공공 데이터포털](https://www.data.go.kr/)에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
 - 지역별 최근값, 최대치, 최소치일자, 최대치일자, 음식점 종류별, 법정동 데이터 생성
 
 <br>
