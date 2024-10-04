@@ -28,5 +28,5 @@
 # 프로세스
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/5584ae15-2e30-4a6a-86f3-5068c57fa44c" width="1000">
+<img src="https://github.com/user-attachments/assets/2696e3ab-59ec-4a9d-a979-6e338518bfd9" width="1000">
 <p>
