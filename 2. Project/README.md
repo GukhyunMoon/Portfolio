@@ -19,14 +19,14 @@
 - 코로나19 이후 국내 외식업체 폐업률 증가, 총 가게수 약 269만개 중 66.72% 비율로 절반 이상 문을 닫았음  
 - 음식점이 문닫는 기간은 평균 3.1년, 지역별 어느 음식 유형이 유행하는지 파악해서 전략 수집
 
-<br>
+<br><br>
 
 # 프로세스
 <p align="center">
- <img src="https://github.com/user-attachments/assets/e2b6955d-e464-4566-975d-d6b0d09c6be0" width="1200">
+ <img src="https://github.com/user-attachments/assets/fff29b9e-f2da-4854-9744-004bea8289d4" width="1200">
 <p>
   
-<br>
+<br><br>
 
 # 주요 역할
 - 데이터 수집 및 전처리(읍,면,동 컬럼을 세분화하여 법정동, 행정동으로 분리, [PublicDataReade](https://wooiljeong.github.io/python/pdr-code/) 모듈 사용)
