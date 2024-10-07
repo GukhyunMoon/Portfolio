@@ -44,6 +44,12 @@
 
 <br>
 
+<p align="center">
+<img width="1100" alt="image" src="https://github.com/user-attachments/assets/f06cbb47-6ad9-4785-a4f5-e2f42ecd8f54">
+<p>
+
+<br>
+
 - [공공 데이터포털](https://www.data.go.kr/)에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
 - 변수 데이터로 학교, 지하철, 극장, 나이대별 인구 비율, 성비 수집
 - 총 **65**가지의 다양한 음식점 유형 리스트 확보
