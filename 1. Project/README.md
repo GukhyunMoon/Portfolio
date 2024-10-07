@@ -93,7 +93,7 @@
 
 ## 2) 변수 데이터 간 상관관계 확인
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/6bd462bf-9895-4529-a294-c88c4a34cae9" width="1200">
+    <img src="https://github.com/user-attachments/assets/6bd462bf-9895-4529-a294-c88c4a34cae9" width="800">
 </p>
 
 
