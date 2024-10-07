@@ -110,7 +110,7 @@
 
 <br>
 
-## 2. Keyword 기반 Faiss 유사도 모델
+## 2-1. Keyword 기반 Faiss 유사도 모델
 <p align="center">
 <img src="https://github.com/user-attachments/assets/7662a342-75ef-4c8a-8d18-365ecad141c0" width="800">
 <p>
@@ -126,7 +126,7 @@
 
 <br>
 
-## 3. Keyword 기반 Embedder Fine tuning
+## 2-2. Keyword 기반 Embedder Fine tuning
 <p align="center">
 <img src="https://github.com/user-attachments/assets/be92675b-80a0-465d-84a3-dac41c3b3924" width="800">
 <p>
@@ -140,7 +140,7 @@
    
 <br>
 
-## 4. Keyword Cluster 및 Embedder Fine tuning
+## 2-3. Keyword Cluster 및 Embedder Fine tuning
 <p align="center">
 <img src="https://github.com/user-attachments/assets/63d52a45-9efb-493c-83ee-3a54843922cc" width="800">
 <p>
