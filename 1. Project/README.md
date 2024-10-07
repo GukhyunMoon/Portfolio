@@ -39,13 +39,11 @@
 
 # 데이터 수집
 <p align="center">
-<img width="1600" alt="image" src="https://github.com/user-attachments/assets/d8a2d389-ba77-469e-b311-62929a903c11">
+ <img width="1600" alt="image" src="https://github.com/user-attachments/assets/d8a2d389-ba77-469e-b311-62929a903c11">
 <p>
 
-<br>
-
 <p align="center">
-<img width="1100" alt="image" src="https://github.com/user-attachments/assets/f06cbb47-6ad9-4785-a4f5-e2f42ecd8f54">
+ <img width="1000" alt="image" src="https://github.com/user-attachments/assets/f06cbb47-6ad9-4785-a4f5-e2f42ecd8f54">
 <p>
 
 <br>
@@ -59,12 +57,9 @@
 
 # 데이터 전처리
 
-<div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/6abfcf80-ee4b-46ab-85f0-9fa2908a38d7" width="500" alt="이미지 1">
-  <img src="https://github.com/user-attachments/assets/bf554593-f60a-4e9b-b7cc-ff1676de0716" width="500" alt="이미지 2">
-</div>
-
-<br>
+<p align="center">
+ <img width="1022" alt="image" src="https://github.com/user-attachments/assets/51dd376b-353a-4911-9a21-9613b4975086">
+<p>
 
 - 지역별 최근값, 최대치, 최소치일자, 최대치일자, 읍면동 등 데이터 생성
 - 지역별 편차가 크고 표준화가 되어있지 않다. >  해당 지역을 총 음식점 당 가게수로 대체
