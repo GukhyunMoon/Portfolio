@@ -43,7 +43,7 @@
 <p>
 
 <p align="center">
- <img width="800" alt="image" src="https://github.com/user-attachments/assets/f06cbb47-6ad9-4785-a4f5-e2f42ecd8f54">
+ <img width="700" alt="image" src="https://github.com/user-attachments/assets/f06cbb47-6ad9-4785-a4f5-e2f42ecd8f54">
 <p>
 
 - [공공 데이터포털](https://www.data.go.kr/)에서 일반 음식점, 휴게음식점 개 폐업 데이터 활용
@@ -56,7 +56,7 @@
 # 데이터 전처리
 
 <p align="center">
- <img width="1022" alt="image" src="https://github.com/user-attachments/assets/51dd376b-353a-4911-9a21-9613b4975086">
+ <img width="900" alt="image" src="https://github.com/user-attachments/assets/51dd376b-353a-4911-9a21-9613b4975086">
 <p>
 
 - 지역별 최근값, 최대치, 최소치일자, 최대치일자, 읍면동 등 데이터 생성
