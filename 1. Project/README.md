@@ -17,7 +17,9 @@
 # 프로젝트 개요
 
 - 코로나19 이후 국내 외식업체 폐업률 증가, 총 가게수 **약 269만개** 중 **66.72%** 비율로 절반 이상 문을 닫았음  
-- 음식점이 문닫는 기간은 평균 **3.1년**, 지역별 어느 음식 유형이 유행하는지 파악해서 전략 수집
+- 음식점이 문닫는 기간은 평균 **3.1년**인 것으로 나타난다.
+- 지역별 상권의 음식점 유형이 각종 요인에 어떤 영향을 받는지 분석하고, 이를 바탕으로 각 지역에 최적화된 창업 전략을 수립
+
 
 <br><br>
 
@@ -36,11 +38,9 @@
 <br><br>
 
 # 데이터 수집
-
-<div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/user-attachments/assets/7f722e58-ffa0-4d4a-add5-e3b7b1f61a71" width="500" alt="이미지 1">
-  <img src="https://github.com/user-attachments/assets/2df9e697-8c60-4c9b-844c-50a1665de1aa" width="500" alt="이미지 2">
-</div>
+<p align="center">
+<img width="1600" alt="image" src="https://github.com/user-attachments/assets/d8a2d389-ba77-469e-b311-62929a903c11">
+<p>
 
 <br>
 
