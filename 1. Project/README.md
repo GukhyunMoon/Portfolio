@@ -181,7 +181,7 @@
 
 ## 6) 변수 간 관계 탐색 
 <p align="center">
- <img width="1200" alt="image" src="https://github.com/user-attachments/assets/37ec0413-8b05-4b5c-b88b-40986d534dc2">
+ <img width="1200" alt="image" src="https://github.com/user-attachments/assets/09bed48b-8eca-4746-90ad-8b27f7d1f8d7">
 <p>
 
 <br><br>
@@ -189,7 +189,7 @@
 # OLS 회귀 분석
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/36914d19-b2e4-4045-a5b2-4af564138ca4" width="1200">  
+  <img width="1600" alt="image" src="https://github.com/user-attachments/assets/7ef4593e-62f2-4789-8f96-953b381c32f5">
 </div>
 
 - 변수의 영향력 파악 : 각 독립 변수가 종속 변수에 미치는 영향을 평가하고 예측 모델의 유의성을 평가
