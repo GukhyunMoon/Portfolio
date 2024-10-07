@@ -165,10 +165,17 @@
 
 
 ## 평가 지표
+<p align="center">
+ <img width="1100" alt="image" src="https://github.com/user-attachments/assets/ce4ed33a-df75-45c2-8770-a56fdc00ac6d">
+<p>
+	
+<br>
 
 - 유사도 측정: 생성된 문장 임베딩을 바탕으로, 실제 법령 데이터와 비교하여 모델이 얼마나 유사 문서를 식별하는지 측정
 - 성능 평가: 모델의 유사도 측정 결과를 바탕으로, 정확도, 정밀도 및 재현율과 같은 통계적 지표를 사용하여 모델 성능을 평가
+- Keyword Cluster 추출 및 Embedder Fine tuning 모델은 비지도 학습의 특성상 일반적인 성능 지표보다는 의미적 유사성과 군집 품질에 중점을 두어 평가
 
+<br>
 
 ## 결과
 <p align="center">
