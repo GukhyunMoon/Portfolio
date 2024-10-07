@@ -174,8 +174,6 @@
  <img width="1100" alt="image" src="https://github.com/user-attachments/assets/ce4ed33a-df75-45c2-8770-a56fdc00ac6d">
 <p>
 	
-<br>
-
 ### 평가 지표
 
 - 유사도 측정: 생성된 문장 임베딩을 바탕으로, 실제 법령 데이터와 비교하여 모델이 얼마나 유사 문서를 식별하는지 측정
