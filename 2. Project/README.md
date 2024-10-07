@@ -159,6 +159,10 @@
 <p align="center">
 <img src="https://github.com/user-attachments/assets/f9e4594f-aa99-4022-aff8-085dcfeaa910" width="800">
 <p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/59ce11bb-6b1f-43d2-b2aa-ef8b251666db" width="800">
+<p>
+
 
 - 위 4개의 모델의 결과를 바탕으로 최빈 법령 탐색
 - 최빈 법령에 포함된 법령으로 검색 범위 축소 > 최빈 조항 순으로 출력
@@ -166,11 +170,7 @@
 <br>
 
 ## 결과
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/59ce11bb-6b1f-43d2-b2aa-ef8b251666db" width="800">
-<p>
-	
-<br>
+
 - 검색한 문장과의 유사도 검사를 통해 관련 법령 검색 (4가지 모델의 결과를 Voting 후 최종 결과 도출)
 - 각 모델의 결과보다 최종 앙상블 모델의 결과가 더 다양하게 나타난다.
 - 각 모델 결과는 단어 자체에 집중하여 비슷한 분야라 하더라도 물어본 질의와는 다른 결과를 나타낼 때가 많았다.
