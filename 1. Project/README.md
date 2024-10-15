@@ -74,7 +74,7 @@
 
 <br><br>
 
-# EDA()
+# EDA
 
 ## 1) 지역별(광역) 가장 많은 음식점 유형, 인구수 확인
 <img src="https://github.com/user-attachments/assets/160e49b4-a369-4186-9976-fa21da006357" width="500">
