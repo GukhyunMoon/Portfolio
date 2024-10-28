@@ -3,9 +3,9 @@
 ## 목차(Contents)
 (목차의 프로젝트를 클릭시 상세내용으로 이동합니다.)
 
-1. [지역별 음식 유행에 따른 상권 분석](./팀%20프로젝트/E-commerce/README.md) **E-commerce**(ML)  
-2. [외국인 대상 영문 법령 검색 AI](./팀%20프로젝트/NLP/README.md) **NLP**(ML / DL)  
-3. [초 개인화 보드게임 추천 시스템](./팀%20프로젝트/Board%20Game/README.md) **Board Game**(ML / DL)
+1. [지역별 음식 유행에 따른 상권 분석](./%ED%8C%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/E-commerce/README.md) **E-commerce**(ML)  
+2. [외국인 대상 영문 법령 검색 AI](./%ED%8C%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/NLP/README.md) **NLP**(ML / DL)  
+3. [초 개인화 보드게임 추천 시스템](./%ED%8C%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/Board%20Game/README.md) **Board Game**(ML / DL)
 -----------------------------------------------------------
 
 <br>
