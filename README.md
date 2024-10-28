@@ -5,7 +5,7 @@
 
 1. [지역별 음식 유행에 따른 상권 분석](./E-commerce/README.md) **E-commerce**(ML)
 2. [외국인 대상 영문 법령 검색 AI](./NLP/README.md) **NLP**(ML / DL)
-3. [초 개인화 보드게임 추천 시스템]("./Board%20Game/README.md") **Board Game**(ML / DL)
+3. [초 개인화 보드게임 추천 시스템](./Board%20Game/README.md) **Board Game**(ML / DL)
 -----------------------------------------------------------
 
 <br>
