@@ -6,9 +6,9 @@
 
 **💭 Language : Python**
 
-**🛠 Tool : Jupyter Notebook (Local)**
+**🛠 Tool : Jupyter Notebook, Google Colab**
 
-**📅 진행기간 : 2024.10.07 ~ 2024.10.31**
+**📅 진행기간 : 2024.10.28 ~ 2024.11.15**
 
 **👥 인원 : 1명**
 
